@@ -12,13 +12,14 @@
     gap: 8px;
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     border-radius: 41px;
     background: #E02C6D;
+    cursor: pointer;
+    border: 0;
 }
 
 /* header style*/
@@ -83,4 +84,46 @@ nav li a {
 .banner-img {
     background-image: url('images/Circle\ design.svg');
     width: auto;
+}
+
+
+/* main section */
+
+/* popular section */
+.popular-title {
+    margin-top: 50px;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    /* 250% */
+    text-align: center;
+}
+
+.card {
+    width: 329px;
+    height: 476px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cards-container{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    
+}
+
+.cards-2{
+    margin-top: 60px;
+
+}
+.cards-3{
+    margin-top: 60px;
+
 }
